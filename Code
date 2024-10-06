@@ -1,0 +1,12 @@
+let f=parseInt(prompt("Enter starting number:"))
+let l=parseInt(prompt("Enter ending number:"))
+for(let i=f;i<=l;i++){
+    if(i%3==0 && i%5==0)
+    console.log("FizzBuzz")
+    else if(i%5==0)
+    console.log("Buzz")
+    else if(i%3==0)
+    console.log("Fizz")
+    else
+    console.log(i);
+}
